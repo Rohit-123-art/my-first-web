@@ -1,69 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Janaki Montessori School</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janaki Montessori School</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Janaki Montessori School</h1>
-    <nav>
- <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: janaki.montessori.itg@gmail.com</p>
-    <p>Location: Itahari-17, Pakali, Sunsari</p>
-  </section>
-      <a href="#about">About</a>
-      <a href="#classes">Classes</a>
-      <a href="#teachers">Teachers</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Janaki Montessori School</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#notice">Notice Board</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Janaki Montessori School provides high quality early childhood education in a nurturing environment.</p>
-  </section>
+    <!-- Main Content Section -->
+    <main id="about">
+        <h2>About the School</h2>
+        <p>Janaki Montessori School provides a nurturing environment for children to grow and learn, fostering creativity, independence, and a love for learning. We aim to develop each child’s potential with individualized care.</p>
+    </main>
 
-  <section id="classes">
-    <h2>Our Classes</h2>
-    <ul>
-      <li>Play Group</li>
-      <li>Nursery</li>
-      <li>LKG</li>
-      <li>UKG</li>
-    </ul>
-  </section>
+    <!-- Notice Board Section -->
+    <section id="notice">
+        <h2>Notice Board</h2>
+        <div class="notice-container">
+            <div id="noticeList">
+                <ul>
+                    <li>Admission open for Play Group to UKG - 2082</li>
+                    <li>Parent-Teacher Meeting on Jestha 15, 2082</li>
+                    <li>Summer Vacation starts from Ashar 1</li>
+                    <li>Regular classes resume from Ashar 15</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <section id="teachers">
-    <h2>Our Teachers</h2>
-    <p>We have experienced and loving teachers dedicated to the growth of your child.</p>
-  </section>
-  <footer>
-    <p>&copy; 2025 Janaki Montessori School</p>
-<section id="notice">
-    <h2>Notice Board</h2>
-    <div class="notice-container">
-        <ul id="noticeList">
-            <li>Admission open for Play Group to UKG - 2082</li>
-            <li>Parent-Teacher Meeting on Jestha 15, 2082</li>
-            <li>Summer Vacation starts from Ashar 1</li>
-            <li>Regular classes resume from Ashar 15</li>
-        </ul>
-    </div>
-</section>
-<section id="contact">
-    <h2>Contact Us</h2>
-    <form action="submit_form.php" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
-  </footer>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Janaki Montessori School. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
