@@ -28,6 +28,63 @@ section {
   padding: 20px;
   margin: 10px;
 }
+/* Notice Board */
+.notice-container {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff4dc;
+    border: 1px solid #f8b400;
+    padding: 10px;
+}
+
+#noticeList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    animation: scroll-up 10s linear infinite;
+}
+
+#noticeList li {
+    height: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+@keyframes scroll-up {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -100%;
+    }
+}
+
+/* Contact Form */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 footer {
   background-color: #444;
